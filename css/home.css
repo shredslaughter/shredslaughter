@@ -1,0 +1,239 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img {
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+
+
+/******************************* reset is above this ***********************/
+
+
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-image:url('http://localhost/images/css images/cooldesign.jpg');
+    background-repeat:repeat-x;
+    background-color: #f4f3f1;
+    position: relative;
+}
+
+.main{
+    
+    width: 900px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dotted;
+    border-color: red;
+    border-width: 2px;
+    border-style: dotted;
+
+}
+
+.header{
+    float: left;
+    width: 896px;
+    height: 190px;
+    margin-top: 20px;
+    border-color: #990000;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.headerbotttom{
+    float: left;
+    width: 896px;
+    height: 20px;
+    background-color: #000;
+    /* for IE */
+    filter:alpha(opacity=60);
+    /* CSS3 standard */
+    opacity:0.6;
+}
+
+.nav1 {
+    position: relative;
+    margin-top: 10px;
+}
+
+.nav1 a {
+    display:block;
+    float:left;
+    text-align: center;
+    color: #f4f3f1;
+    background-color: cornflowerblue;
+    font-weight: bold;
+    font-size:  large;
+    width:60px;
+    height: 40px;
+    text-decoration: none;
+
+}
+
+.nav1  a:hover{
+    background-color: darkcyan;
+}
+
+.nav2{
+    position: relative;
+    margin-top: 10px;
+}
+
+.nav2 a {
+    display:block;
+    float: left;
+    text-align: center;
+    color: #f4f3f1;
+    background-color: cornflowerblue;
+    font-weight: bold;
+    font-size:  large;
+    width:60px;
+    height: 40px;
+    text-decoration: none;
+
+}
+
+.nav2  a:hover{
+    background-color: darkcyan;
+}
+
+.navlogo{
+    float:left;
+}
+.body{
+    float: left;
+    width: 896px;
+    border-color: #00620C;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 10px;
+}
+
+.column1{
+    float: left;
+    width: 620px;
+    background-color: #000;
+    /* for IE */
+    filter:alpha(opacity=60);
+    /* CSS3 standard */
+    opacity:0.6;
+}
+
+#flashmovie{
+    float: left;
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    /* for IE */
+    filter:alpha(opacity=60);
+    /* CSS3 standard */
+    opacity:0.6;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#news{
+    float: left;
+   
+    width: 600px;
+    background-color: white;
+    /* for IE */
+    filter:alpha(opacity=60);
+    /* CSS3 standard */
+    opacity:0.6;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#newsheader{
+    float: left;
+    width: 550px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-color: #00620C;
+    border-width: 2px;
+    border-style: dotted;
+}
+
+#newsentry{
+    float: left;
+    width: 550px;
+    margin-left: 25px;
+    border-color: #00620C;
+    border-width: 2px;
+    border-style: dotted;
+}
+
+.column2{
+    float: left;
+    margin-left: 8px;
+    width: 264px;
+    height: 300px;
+    background-color: #000;
+    /* for IE */
+    filter:alpha(opacity=60);
+    /* CSS3 standard */
+    opacity:0.6;
+}
+
+.column3{
+    float: left;
+    margin-left: 8px;
+    width: 264px;
+    height: 300px;
+    margin-top: 10px;
+    background-color: #000;
+    /* for IE */
+    filter:alpha(opacity=60);
+    /* CSS3 standard */
+    opacity:0.6;
+}
+
+.footer{
+    float: left;
+    width: 896px;
+    height: 100px;
+    margin-top: 10px;
+    background-color: #000;
+    /* for IE */
+    filter:alpha(opacity=60);
+    /* CSS3 standard */
+    opacity:0.6;
+    
+}
+
+
+.clear{
+    clear: both;
+}
+
+/**************************************************/
