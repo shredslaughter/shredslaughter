@@ -59,7 +59,7 @@
                     </div>
                     <div id="news">
 
-                        <span id="newsheader"><h1>Recent News</h1></span>
+                        <span id="newsheader">Recent News</span>
 
                         <?php
                             echo $news;

@@ -20,10 +20,10 @@ class home_model extends Model{
                 $news = $row->news;
 
                $data = $data. "
-              <h1>$title</h1>
-              <h2>$month $day</h2>
-              <p>$news</p>
-              <p>$object</p>
+              <span id=\"title\" >$title</span>
+              <span id=\"date\">$month $day</span>
+              <div id=\"news\">$news</div>
+              <div id=\"object\">$object</div>
                ";
                
 
