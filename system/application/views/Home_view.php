@@ -19,7 +19,7 @@
     $(".column3").corner("20px");
     $(".footer").corner("20px");
     $(".headerbotttom").corner("20px bottom");
-    $("#news").corner("20px");
+    $("#newsfeed").corner("20px");
     </script>
 
     <div class="container">
@@ -54,22 +54,25 @@
             <div class="body">
 
                 <div class="column1">
+
                     <div id="flashmovie">
                         FLASH MOVIE HERE 600x300px
                     </div>
-                    <div id="news">
 
-                        <span id="newsheader">Recent News</span>
-
+                    <div id="newsfeed">
                         <?php
                             echo $news;
                         ?>
                     </div>
 
                 </div>
+
                 <div class="column2">
+
                     Recent Events
+
                 </div>
+                
                 <div class="column3">
                     Poll
                 </div>

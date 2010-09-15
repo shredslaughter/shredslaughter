@@ -136,6 +136,28 @@ abbr,acronym { border:0;
     margin-top: 10px;
 }
 
+
+
+.footer{
+    float: left;
+    width: 896px;
+    height: 100px;
+    margin-top: 10px;
+    background-color: #000;
+    /* for IE */
+    filter:alpha(opacity=60);
+    /* CSS3 standard */
+    opacity:0.6;
+    
+}
+
+
+.clear{
+    clear: both;
+}
+
+/****************************skeleton above this line for rest of website **********************/
+
 .column1{
     float: left;
     width: 620px;
@@ -146,51 +168,92 @@ abbr,acronym { border:0;
     opacity:0.6;
 }
 
+
+
 #flashmovie{
     float: left;
     height: 300px;
     width: 600px;
     background-color: white;
-    /* for IE */
-    filter:alpha(opacity=60);
-    /* CSS3 standard */
-    opacity:0.6;
     margin-top: 10px;
     margin-left: 10px;
 }
 
-#news{
+#newsfeed{
     float: left;
-   
     width: 600px;
     background-color: white;
-    /* for IE */
-    filter:alpha(opacity=60);
-    /* CSS3 standard */
-    opacity:0.6;
+    
     margin-top: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
 }
 
-#newsheader{
-    float: left;
-    width: 550px;
-    height: 30px;
-    margin-left: 25px;
-    margin-top: 10px;
-    border-color: #00620C;
-    border-width: 2px;
-    border-style: dotted;
-}
+
 
 #newsentry{
     float: left;
     width: 550px;
     margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-color: #00620C;
     border-width: 2px;
     border-style: dotted;
+}
+
+#newsentryDate{
+    float: left;
+    
+
+}
+
+#day{
+    float: left;
+    text-transform: uppercase;
+    color: #00CCFF;
+    font-family:"Arial", Sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-left: 10px;
+    height: 22px;
+    	
+    
+}
+
+#month{
+    float: left;
+    text-transform: uppercase;
+    color: #00CCFF;
+    font-family:"Arial", Sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    
+
+}
+
+#title{
+    float: left;
+    text-transform:uppercase;
+    color: black;
+    font-family:"Arial", Sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-left: 20px;
+    margin-top: 5px;
+
+   
+}
+
+#object{
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#news{
+    
 }
 
 .column2{
@@ -217,40 +280,3 @@ abbr,acronym { border:0;
     /* CSS3 standard */
     opacity:0.6;
 }
-
-.footer{
-    float: left;
-    width: 896px;
-    height: 100px;
-    margin-top: 10px;
-    background-color: #000;
-    /* for IE */
-    filter:alpha(opacity=60);
-    /* CSS3 standard */
-    opacity:0.6;
-    
-}
-
-
-.clear{
-    clear: both;
-}
-
-/****************************skeleton above **********************/
-
-#title{
-
-}
-
-#date{
-
-}
-
-#news{
-
-}
-
-#object{
-
-}
-
