@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Sep 14, 2010 at 11:48 PM
+-- Generation Time: Sep 15, 2010 at 05:39 AM
 -- Server version: 5.1.36
 -- PHP Version: 5.3.0
 
@@ -33,12 +33,15 @@ CREATE TABLE IF NOT EXISTS `news` (
   `news` text NOT NULL,
   `object` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
 
 --
 -- Dumping data for table `news`
 --
 
 INSERT INTO `news` (`id`, `title`, `month`, `day`, `news`, `object`) VALUES
-(1, 'Bam Boom', 6, '22', 'NEW LONDON, Conn. – Someday, the secrets of fireflies or glowing sea plankton could save an American soldier in battle, a Navy SEAL on a dive or a military pilot landing after a mission.\r\nThat''s the hope behind a growing field of military-sponsored research into bioluminescence, a phenomenon that''s under the microscope in laboratories around the country.', 'http://localhost/images/css images/cooldesign.jpg'),
-(2, 'Test Title', 7, '08', 'A possible military use of bioluminescence would be creating biodegradable landing zone markers that helicopters can spot even as wind from their rotors kicks up dirt.\r\nThe military could also develop bioluminescent "friend vs. foe" identification markers and security systems, and methods to track weapons and supplies on the battlefield.\r\nFirst described around 500 B.C. by the Greek philosopher Anaximenes, bioluminescence is familiar by its sight — if not its name — to children catching fireflies and to divers entranced by lanternfish and other sea life', 'http://localhost/images/css images/cooldesign.jpg');
+(1, 'Bam Boom', 6, '22', 'NEW LONDON, Conn. – Someday, the secrets of fireflies or glowing sea plankton could save an American soldier in battle, a Navy SEAL on a dive or a military pilot landing after a mission.\r\nThat''s the hope behind a growing field of military-sponsored research into bioluminescence, a phenomenon that''s under the microscope in laboratories around the country.', 'http://localhost/images/css images/SS_logo60percent.png'),
+(2, 'Test Title', 7, '08', 'A possible military use of bioluminescence would be creating biodegradable landing zone markers that helicopters can spot even as wind from their rotors kicks up dirt.\r\nThe military could also develop bioluminescent "friend vs. foe" identification markers and security systems, and methods to track weapons and supplies on the battlefield.\r\nFirst described around 500 B.C. by the Greek philosopher Anaximenes, bioluminescence is familiar by its sight — if not its name — to children catching fireflies and to divers entranced by lanternfish and other sea life', 'http://www.youtube.com/watch?v=DvhACg9wR1g'),
+(3, 'snowboarding', 2, '31', 'Democratic New Hampshire Gov. John Lynch rolled to renomination for a fourth term, and he will face John Stephen,', 'http://blog.eun.org/lickhillgoesfrench/upload/snowboard-mont-blanc.jpg'),
+(4, 'Lets get Blank', 8, '01', 'WASHINGTON – Tea party-supported candidates in New Hampshire and Delaware seized early leads over establishment-backed rivals in Republican senatorial races Tuesday, the finale to a primary season marked by economic recession and political upheaval.\r\nIn New Hampshire, Ovide Lamontagne was gaining 52 percent of the vote to 32 percent for former Attorney Genera\r\n', 'http://snowboarding-skiing.com/wp-content/uploads/2009/05/snowboarding3.jpg'),
+(5, 'Another Title', 12, '10', 'The U.S. National Hurricane Center in Miami says the storm is expected to strengthen, and its center could be over the Yucatan on Wednesday.', 'http://www.shredoutcancer.org/wp-content/uploads/2009/05/shred-out-cancer-boarder-logo.jpg');

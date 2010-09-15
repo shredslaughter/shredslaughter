@@ -16,9 +16,21 @@ class Home extends Controller{
 
 	function index()
 	{
+           $pageNUM=0;
+
+           if($this->input->post('prepage')){
+              $pageNUM = $this->input->post('Previous');
+              $pageNUM-=3;
+              echo $pageNUM;
+           }else
+               if($this->input->post('nextpage')){
+                 $pageNUM = $this->input->post('Next');
+                 $pageNUM+=3;
+           }
+
            
            
-           $data['news'] = $this->home_model->getnews();
+           $data['news'] = $this->home_model->getnews($pageNUM);
            $this->load->view('Home_view', $data);
 	}
 

@@ -197,9 +197,8 @@ abbr,acronym { border:0;
     margin-left: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
-    border-color: #00620C;
-    border-width: 2px;
-    border-style: dotted;
+    border-top: 1px solid black;
+    
 }
 
 #newsentryDate{
@@ -215,7 +214,7 @@ abbr,acronym { border:0;
     font-family:"Arial", Sans-serif;
     font-weight: bolder;
     font-size: x-large;
-    margin-left: 10px;
+    margin-left: 5px;
     height: 22px;
     	
     
@@ -226,6 +225,7 @@ abbr,acronym { border:0;
     text-transform: uppercase;
     color: #00CCFF;
     font-family:"Arial", Sans-serif;
+    font-family: "Impact", fantasy;
     font-weight: bolder;
     font-size: x-large;
     
@@ -236,7 +236,7 @@ abbr,acronym { border:0;
     float: left;
     text-transform:uppercase;
     color: black;
-    font-family:"Arial", Sans-serif;
+    font-family: "Impact", fantasy;
     font-weight: bolder;
     font-size: xx-large;
     margin-left: 20px;
@@ -254,6 +254,17 @@ abbr,acronym { border:0;
 
 #news{
     
+}
+
+#newsNavpre{
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 250px;
+}
+
+#newsNavnext{
+    float: left;
+    margin-bottom: 10px;
 }
 
 .column2{
