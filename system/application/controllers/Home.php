@@ -16,21 +16,46 @@ class Home extends Controller{
 
 	function index()
 	{
-           $pageNUM=0;
+           $startNum =0; //for news feed
+          
 
-           if($this->input->post('prepage')){
-              $pageNUM = $this->input->post('Previous');
-              $pageNUM-=3;
-              echo $pageNUM;
+           if($this->input->post('previous')){
+
+               if($startNum == 0){
+                   $data['news'] = $this->home_model->getnextnews($startNum);
+               }else{
+                  $startNum = $this->input->post('prepage');
+                  $data['news'] = $this->home_model->getpreviousnews($startNum-3);
+                  echo "prepage ".$startNum;//for debuging
+               }
+               
+           }else
+               if($this->input->post('next')){
+                 $startNum = $this->input->post('nextpage');
+                 $data['news'] = $this->home_model->getnextnews($startNum);
+                 echo "nextpage".$startNum ; //for debugging
+           }else if((!$this->input->post('next')) && (!$this->input->post('previous'))){
+               $data['news'] = $this->home_model->getnextnews($startNum);
+               echo $startNum ;
+           }
+           /*
+            *  if($this->input->post('prepage')){
+               $startNum = $this->input->post('prepage');
+               $data['news'] = $this->home_model->getpreviousnews($startNum);
+              echo "prepage ";//for debuging
            }else
                if($this->input->post('nextpage')){
-                 $pageNUM = $this->input->post('Next');
-                 $pageNUM+=3;
+                 $startNum = $this->input->post('nextpage');
+                 $data['news'] = $this->home_model->getnextnews($startNum);
+                 echo "nextpage".$startNum ; //for debugging
+           }else{
+               $data['news'] = $this->home_model->getnextnews($startNum);
            }
-
+            *
+            */
            
            
-           $data['news'] = $this->home_model->getnews($pageNUM);
+           
            $this->load->view('Home_view', $data);
 	}
 
