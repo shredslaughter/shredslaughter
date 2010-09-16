@@ -20,6 +20,8 @@
     $(".footer").corner("20px");
     $(".headerbotttom").corner("20px bottom");
     $("#newsfeed").corner("20px");
+    $("#recentevents").corner("20px");
+    $("#events").corner("20px");
     </script>
 
     <div class="container">
@@ -69,7 +71,14 @@
 
                 <div class="column2">
 
-                    Recent Events
+                    <div id="recentevents">
+                        <span id="recenteventsTitle">
+                        Recent Events
+                        </span>
+                    </div>
+                    <div id="events">
+
+                    </div>
 
                 </div>
                 
