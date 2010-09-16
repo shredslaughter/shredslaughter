@@ -83,7 +83,7 @@
                 </div>
                 
                 <div class="column3">
-                    Poll
+                    
                 </div>
 
             </div>
