@@ -40,21 +40,6 @@ class Home extends Controller{
                $data['news'] = $this->home_model->getnextnews($startNum);
                //echo $startNum ;
            }
-           /*
-            *  if($this->input->post('prepage')){
-               $startNum = $this->input->post('prepage');
-               $data['news'] = $this->home_model->getpreviousnews($startNum);
-              echo "prepage ";//for debuging
-           }else
-               if($this->input->post('nextpage')){
-                 $startNum = $this->input->post('nextpage');
-                 $data['news'] = $this->home_model->getnextnews($startNum);
-                 echo "nextpage".$startNum ; //for debugging
-           }else{
-               $data['news'] = $this->home_model->getnextnews($startNum);
-           }
-            *
-            */
            
            
            

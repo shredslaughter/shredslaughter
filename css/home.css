@@ -141,14 +141,33 @@ abbr,acronym { border:0;
 .footer{
     float: left;
     width: 896px;
-    height: 100px;
+    height: 70px;
     margin-top: 10px;
+    margin-bottom: 10px;
     background-color: #000;
     /* for IE */
     filter:alpha(opacity=60);
     /* CSS3 standard */
     opacity:0.6;
     
+}
+
+.footerlink{
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.rights{
+    float: left;
+    margin-left: 20px;
+    margin-top: 22px;
+    text-transform: uppercase;
+    color: #00CCFF;
+    font-family:"Arial", Sans-serif;
+    font-family: "Impact", fantasy;
+    font-size: medium;
+
 }
 
 

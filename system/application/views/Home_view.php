@@ -81,7 +81,32 @@
 
             <div class="clear"></div>
 
-            <div class="footer">footer</div>
+            <div class="footer">
+                
+                    <div class="footerlink">
+                          <a  href="http://www.facebook.com/pages/Wrightwood-CA/Shred-Slaughter/126968080662214">
+                          <img src="<?php echo base_url();?>/images/css images/facebooksymbol.png" alt="facebook" width="60" height="60" />
+                          </a>
+                    </div>
+                
+                    <div class="footerlink">
+                          <a  href="http://www.youtube.com/user/shredslaughter">
+                          <img src="<?php echo base_url();?>/images/css images/youtubesymbol.png" alt="facebook" width="60" height="60" />
+                          </a>
+                    </div>
+
+                    <div class="footerlink">
+                          <a  href="http://www.vimeo.com/shredslaughter">
+                          <img src="<?php echo base_url();?>/images/css images/Vimeosymbol.png" alt="facebook" width="60" height="60" />
+                          </a>
+                    </div>
+
+
+
+                    <div class="rights">
+                          All rights Reserved to Shred Slaughter 2010.
+                    </div>
+            </div>
 
             <div class="clear"></div>
 
