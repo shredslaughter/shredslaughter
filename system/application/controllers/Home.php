@@ -21,22 +21,24 @@ class Home extends Controller{
 
            if($this->input->post('previous')){
 
-               if($startNum == 0){
+              $startNum = $this->input->post('prepage');
+
+               if($startNum <= 0){
                    $data['news'] = $this->home_model->getnextnews($startNum);
                }else{
-                  $startNum = $this->input->post('prepage');
+                   
                   $data['news'] = $this->home_model->getpreviousnews($startNum-3);
-                  echo "prepage ".$startNum;//for debuging
+                 // echo "prepage ".$startNum;//for debuging
                }
                
            }else
                if($this->input->post('next')){
                  $startNum = $this->input->post('nextpage');
                  $data['news'] = $this->home_model->getnextnews($startNum);
-                 echo "nextpage".$startNum ; //for debugging
+                 //echo "nextpage".$startNum ; //for debugging
            }else if((!$this->input->post('next')) && (!$this->input->post('previous'))){
                $data['news'] = $this->home_model->getnextnews($startNum);
-               echo $startNum ;
+               //echo $startNum ;
            }
            /*
             *  if($this->input->post('prepage')){
