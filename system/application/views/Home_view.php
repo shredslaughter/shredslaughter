@@ -23,6 +23,7 @@
     $("#newsfeed").corner("3px");
     $("#recentevents").corner("3px");
     $(".header").corner("3px");
+    $("#column3pic").corner("3px");
     </script>
 
     <div class="container">
@@ -85,7 +86,7 @@
                 </div>
                 
                 <div class="column3">
-                    
+                    <img id ="column3pic" src="<?php echo base_url();?>/images/css images/goggles.jpg" alt="" />
                 </div>
 
             </div>
