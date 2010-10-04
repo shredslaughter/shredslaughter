@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Sep 15, 2010 at 11:07 PM
+-- Generation Time: Oct 04, 2010 at 09:52 PM
 -- Server version: 5.1.36
 -- PHP Version: 5.3.0
 
@@ -18,6 +18,32 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 --
 -- Database: `ss`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `events`
+--
+
+CREATE TABLE IF NOT EXISTS `events` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `month` int(11) NOT NULL,
+  `day` int(11) NOT NULL,
+  `year` int(11) NOT NULL,
+  `location` text NOT NULL,
+  `moreinfo` text NOT NULL,
+  `time` varchar(200) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+--
+-- Dumping data for table `events`
+--
+
+INSERT INTO `events` (`id`, `name`, `month`, `day`, `year`, `location`, `moreinfo`, `time`) VALUES
+(1, 'Blank Event', 5, 26, 2010, 'LA Sports arena. Los Angles, CA.', 'I got loads of new music today from producers around the world .. Some amazing and some unbelievably Phat !!! Signing some new SHIZZLE !!!', ''),
+(2, 'Some Eventvibe', 3, 8, 2010, 'Pacific Beach. San Diego, CA.', 'I got loads of new music today from producers around the world .. Some amazing and some unbelievably Phat !!! Signing some new SHIZZLE !!!', '');
 
 -- --------------------------------------------------------
 
