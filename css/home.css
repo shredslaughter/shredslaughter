@@ -178,6 +178,7 @@ body{
     background-color: #000;
     background-color: rgba(0, 0, 0, 0.6);
     font: 13px/100% Arial, Helvetica, sans-serif;
+    
 }
 
 
@@ -192,6 +193,7 @@ body{
     margin-top: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
+
     
 
 }
@@ -205,8 +207,9 @@ body{
     margin-top: 5px;
     margin-bottom: 5px;
     border-bottom: 1px solid black;
+    color: rgb(255,255,255);
     
-    
+   
 }
 
 #newsentryDate{
@@ -223,6 +226,7 @@ body{
     font-size: large;
     margin-left: 8px;
     height: 22px;
+    margin-bottom: -4px;
     
     
 }
@@ -247,13 +251,13 @@ body{
     margin-left: 20px;
     margin-top: 12px;
     color: rgb(255, 255, 255);
-
+    
    
 }
 
 .slash{
     float: left;
-    color: rgb(0, 0, 0);
+    color: rgb(255,255,255);
     
     font-size: small;
 }
@@ -312,15 +316,16 @@ body{
     margin-bottom: 5px;
     text-transform: uppercase;
     color: rgb(0,174,255);
-    
-
+    width: 100%;
+    border-bottom: 3px solid #f4f3f1;
+    padding-bottom: 5px;
     font-size: small;
     
    
 }
 
 #recentslash{
-    color: rgb(0, 0, 0);
+    color: rgb(255,255,255);
 }
 
 #events{
@@ -369,14 +374,14 @@ body{
 #events td, tr{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #events th{
     color: rgb(0,174,255);
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 
@@ -384,7 +389,7 @@ body{
     float: left;
     margin-left: 8px;
     width: 264px;
-    height: 280px;
+    height: 268px;
     margin-top: 10px;
     background-color: #000;
     background-color: rgba(0, 0, 0, 0.6);
@@ -395,7 +400,7 @@ body{
     float: left;
     width: 244px;
     margin-left: 10px;
-    height: 260px;
+    height: 244px;
     margin-bottom: 10px;
     margin-top: 10px;
 }

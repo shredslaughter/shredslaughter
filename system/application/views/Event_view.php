@@ -49,7 +49,24 @@
 
 
                 <div class="eventinstance">
-                    r
+                    
+                    <div class="groupevent">
+                        <div id="name"> <?php echo $event['name'];?> </div>
+                        <div class="clear"></div>
+                        <span id="eventslash">
+                        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        </span>
+                        <div class="clear"></div> Time
+                        <div id="date">
+                            <div id="month"> <?php echo $event['month'];?> </div><div id="day"> <?php echo $event['day'];?> </div><div id="year"> <?php echo $event['year'];?> </div>
+                            <div id="time"> <?php echo $event['time'];?> </div>
+                        </div>
+                        
+                        <div class="clear"></div>Location
+                        <div id="location"> <?php echo $event['location'];?> </div>
+                        <div class="clear"></div>More Info
+                        <div id="moreinfo"> <?php echo $event['moreinfo'];?> </div>
+                    </div>
                 </div>
 
             </div>

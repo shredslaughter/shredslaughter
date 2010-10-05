@@ -176,7 +176,76 @@ body{
     width: 896px;
     background-color: #000;
     background-color: rgba(0, 0, 0, 0.6);
-    height: 500px;
+    
     
 }
 
+.groupevent{
+    float: left;
+    width: 800px;
+    margin-left: 48px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+
+    color: rgb(0,174,255);
+    
+
+}
+
+#name{
+    float: left;
+    color: rgb(0,174,255);
+    font: 22px/100% Arial, Helvetica, sans-serif;
+}
+
+#date{
+    float: left;
+    margin-top: 10px;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    padding-bottom: 10px;
+    color: rgb(255,255,255);
+    
+}
+
+#month{
+    float: left;
+    
+}
+
+#day{
+    float: left;
+    margin-left: 5px;
+}
+
+#year{
+    float: left;
+    margin-left: 5px;
+}
+
+#time{
+    float: left;
+    margin-left: 10px;
+}
+
+#location{
+    float:left;
+    margin-top: 10px;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    padding-bottom: 10px;
+    color: rgb(255,255,255);
+}
+
+#moreinfo{
+    float:left;
+    margin-top: 10px;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    padding-bottom: 10px;
+    color: rgb(255,255,255);
+}
+
+#eventslash{
+    color: rgb(255,255,255);
+}
