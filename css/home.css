@@ -258,7 +258,9 @@ body{
 .slash{
     float: left;
     color: rgb(255,255,255);
-    
+    width: 100%;
+    border-top: 3px solid #f4f3f1;
+    padding-top: 5px;
     font-size: small;
 }
 
@@ -326,6 +328,7 @@ body{
 
 #recentslash{
     color: rgb(255,255,255);
+    
 }
 
 #events{
@@ -369,19 +372,35 @@ body{
 
 #events table{
     width:100%;
+    font: 12px/100% Arial, Helvetica, sans-serif;
 }
 
 #events td, tr{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#events td{
+    width: 100px;
+    text-align: center;
 }
 
 #events th{
     color: rgb(0,174,255);
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.white {
+     background-color: rgba(255,255,255, 0.1);
+}
+
+.blue {
+    background-color: rgba(0,174,255, 0.1);
 }
 
 

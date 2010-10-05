@@ -10,7 +10,7 @@ class Home extends Controller{
             $this->load->helper('url');
             $this->load->helper('form');
             $this->load->model("home_model");
-            
+            $this->load->model("events_model");
             
         }
 
@@ -41,7 +41,7 @@ class Home extends Controller{
                //echo $startNum ;
            }
            
-          $data['events'] = $this->home_model->return5events();
+          $data['events'] = $this->events_model->return5events();
            
            $this->load->view('Home_view', $data);
 	}
@@ -49,15 +49,7 @@ class Home extends Controller{
 
 
 
-        function event()
-        {
-            $ID = $this->uri->segment(3);
-
-            $data['event'] = $this->home_model->return1events($ID);
-
-            $this->load->view('Event_view', $data);
-
-        }
+        
 
 
 }

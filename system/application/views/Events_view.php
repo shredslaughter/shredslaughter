@@ -2,24 +2,23 @@
 "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/home.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/events.css" />
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
        <script type="text/javascript" src="http://github.com/malsup/corner/raw/master/jquery.corner.js?v2.11"></script>
        <script type="text/javascript" src="<?php echo base_url();?>javascript/master.js"></script>
-       <title>Shred Slaughter</title>
+      <title>Shred Slaughter: Events</title>
 </head>
 
 <body>
 
-    
 
     <div class="container">
         <div class="main">
 
             <div class="header">
 
-                
-                
+
+
                 <ul class="nav1">
                 <li><a href="<?php echo base_url();?>">Home</a></li>
                 <li><a href="#">Info</a></li>
@@ -30,50 +29,28 @@
                 </ul>
 
                 <div class="clear"></div>
-                
 
-                
+
+
             </div>
 
             <div class="clear"></div>
 
             <div class="body">
 
-                <div class="column1">
 
-                    
+                <div class="masterevent">
 
-                    <div id="newsfeed">
-                        <?php
-                            echo $news;
-                        ?>
-                    </div>
-
-                </div>
-
-                <div class="column2">
-
-                    <div id="recentevents">
-                        <span id="recenteventsTitle">
-                        Recent Events
+                    <div id="eventframe">
+                        <div id="eventstitle"> Events</div>
+                        <div class="clear"></div>
+                        <span id="eventslash">
+                        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                         </span>
                         <div class="clear"></div>
-                        <span id="recentslash">
-                        /////////////////////////////////////////////////////////////////////////////////
-                        </span>
-                        <div class="clear"></div>
-
-                    </div>
-                    <div id="events">
-                        <?php
-                            echo $events;
-                        ?>
+                        <?php echo $events; ?>
                     </div>
 
-                </div>
-                
-                <div class="column3">
-                    <img id ="column3pic" src="<?php echo base_url();?>/images/css images/goggles.jpg" alt="" />
                 </div>
 
             </div>
@@ -81,13 +58,13 @@
             <div class="clear"></div>
 
             <div class="footer">
-                
+
                     <div class="footerlink">
                           <a  href="http://www.facebook.com/pages/Wrightwood-CA/Shred-Slaughter/126968080662214">
                           <img src="<?php echo base_url();?>/images/css images/facebooksymbol.png" alt="facebook" width="30" height="30" />
                           </a>
                     </div>
-                
+
                     <div class="footerlink">
                           <a  href="http://www.youtube.com/user/shredslaughter">
                           <img src="<?php echo base_url();?>/images/css images/youtubesymbol.png" alt="facebook" width="30" height="30" />
@@ -109,7 +86,7 @@
 
             <div class="clear"></div>
 
-        </div> 
+        </div>
     </div>
 
 

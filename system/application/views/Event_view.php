@@ -2,24 +2,16 @@
 "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/Event_view.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/events.css" />
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
        <script type="text/javascript" src="http://github.com/malsup/corner/raw/master/jquery.corner.js?v2.11"></script>
-    <title>Shred Slaughter</title>
+       <script type="text/javascript" src="<?php echo base_url();?>javascript/master.js"></script>
+       <title>Shred Slaughter: Event <?php echo $event['name'];?> </title>
 </head>
 
 <body>
 
-    <script type="text/javascript" >
-       //when done with this javascript package it into its own file and just call it
-
-       $(".main").corner("3px");
-    $(".body").corner("3px");
-    $(".footer").corner("3px");
-    $(".headerbotttom").corner("3px bottom");
-    $(".eventinstance").corner("3px");
-
-    </script>
+    
 
     <div class="container">
         <div class="main">
@@ -31,7 +23,7 @@
                 <ul class="nav1">
                 <li><a href="<?php echo base_url();?>">Home</a></li>
                 <li><a href="#">Info</a></li>
-                <li><a href="#">Events</a></li>
+                <li><a href="<?php echo base_url();?>index.php/Events">Events</a></li>
                 <li><a href="#">Images</a></li>
                 <li><a href="#">Videos</a></li>
                 <li><a href="#">Shop</a></li>
