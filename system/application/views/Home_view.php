@@ -18,15 +18,16 @@
 
             <div class="header">
 
-                
-                
+                <img alt="image" id="header-image" src="<?php echo base_url();?>images/css images/black-white-snowcut.jpg"</>
+                <img alt="" id="sslogo" src="<?php echo base_url();?>images/css images/SS_logo60percent.png"</>
+
                 <ul class="nav1">
                 <li><a href="<?php echo base_url();?>">Home</a></li>
                 <li><a href="#">Info</a></li>
                 <li><a href="<?php echo base_url();?>index.php/Events">Events</a></li>
                 <li><a href="#">Images</a></li>
                 <li><a href="#">Videos</a></li>
-                <li><a href="#">Shop</a></li>
+                <li><a href="http://localhost/Store/index.php?route=common/home">Shop</a></li>
                 </ul>
 
                 <div class="clear"></div>
@@ -59,7 +60,7 @@
                         </span>
                         <div class="clear"></div>
                         <span id="recentslash">
-                        /////////////////////////////////////////////////////////////////////////////////
+                        
                         </span>
                         <div class="clear"></div>
 

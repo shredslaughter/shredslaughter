@@ -53,7 +53,7 @@ class home_model extends Model{
               </div>\n
               <span id=\"title\" >$title</span>
                 <div class=\"clear\"></div>
-                <span class=\"slash\">/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</span>
+                <span class=\"slash\"></span>
                 <div class=\"clear\"></div>
                 
               <div class=\"clear\"></div>

@@ -6,19 +6,20 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
        <script type="text/javascript" src="http://github.com/malsup/corner/raw/master/jquery.corner.js?v2.11"></script>
        <script type="text/javascript" src="<?php echo base_url();?>javascript/master.js"></script>
-       <title>Shred Slaughter: Event <?php echo $event['name'];?> </title>
+      <title>Shred Slaughter: Events</title>
 </head>
 
 <body>
 
-    
+
 
     <div class="container">
         <div class="main">
 
             <div class="header">
 
-
+                <img alt="image" id="header-image" src="<?php echo base_url();?>images/css images/black-white-snowcut.jpg"</>
+                <img alt="" id="sslogo" src="<?php echo base_url();?>images/css images/SS_logo60percent.png"</>
 
                 <ul class="nav1">
                 <li><a href="<?php echo base_url();?>">Home</a></li>
@@ -26,7 +27,7 @@
                 <li><a href="<?php echo base_url();?>index.php/Events">Events</a></li>
                 <li><a href="#">Images</a></li>
                 <li><a href="#">Videos</a></li>
-                <li><a href="#">Shop</a></li>
+                <li><a href="http://localhost/Store/index.php?route=common/home">Shop</a></li>
                 </ul>
 
                 <div class="clear"></div>
@@ -46,7 +47,7 @@
                         <div id="name"> <?php echo $event['name'];?> </div>
                         <div class="clear"></div>
                         <span id="eventslash">
-                        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        
                         </span>
                         <div class="clear"></div> Time
                         <div id="date">

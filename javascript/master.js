@@ -13,3 +13,6 @@
     $(".eventinstance").corner("3px");
     $(".masterevent").corner("3px");
 
+
+    
+
